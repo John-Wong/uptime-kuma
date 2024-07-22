@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "uptimekuma"
-          entrypoint: "server/server.js"
+          entrypoint: "node server/server.js"
           root: "./"
